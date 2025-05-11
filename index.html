@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Mumbai Trip Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="bg" src="bg.jpg" alt="IIT Mumbai Background">
+    <div class="container">
+        <h1>Welcome to IIT Mumbai US Trip Form</h1>
+        <p>Enter your details to confirm your participation in the trip</p>
+        <p class="submitmsg">Thank you for submitting your form!</p>
+        
+        <form action="index.php" method="post">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="text" name="gender" placeholder="Your Gender" required>
+            <input type="number" name="age" placeholder="Your Age" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="other" rows="5" placeholder="Additional Information"></textarea>
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>

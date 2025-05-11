@@ -1,6 +1,4 @@
-# IIT Mumbai US Trip Registration System  
-
-![Project Screenshot](/screenshots/form-preview.png)  
+# IIT Mumbai US Trip Registration System   
 
 A full-stack registration system for student trip applications.  
 
